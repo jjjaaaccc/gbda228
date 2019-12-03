@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Home Page</title>
+  </head>
+
+  <body>
+    <div class="nav">
+    <nav>
+    <div class="header">
+    <a href="../index.html"><img width = "200px" class="logo" src="../Images/princesscinema.png" alt="Princess Cinema Logo"></a>
+    </div>
+      <ul>
+        <div class="nav-links">
+        <li><a class="active" href="index.html">SHOWTIMES</a></li>
+        <li><a href="events.html">EVENTS</a></li>
+        <li><a href="odeon_gallery.html">ODEON GALLERY</a></li>
+        <li><a href="subpages/about.html">ABOUT US</a></li>
+        <li><a href="subpages/parking.html">PARKING</a></li>
+        </div>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    </div>
+    <div id = "landing_movie">
+      <h1>Jojo Rabbit</h1>
+      <h2>November 8</h2>
+      <h3>Princess Twin</h3>
+      <p>Taika Waititi knocks it out of der park with the meaningful lunacy of his anti-hate satire, which is equal parts Mel Brooks, Wes Anderson and Waititi’s own whimsical brilliance.</p>
+      <p>-Toronto Star</p>
+      <!--<img width="100%" src="Images/jojo-rabbit.jpg" alt="jojo">-->
+    </div>
+    <div id="ticket">
+      <h1>BOOK TICKETS</h1>
+    <table>
+      <tr id="tbh">
+        <td>
+          <h3>Location</h3>
+        </td>
+        <td>
+          <h3>Movie</h3>
+        </td>
+        <td>
+          <h3>Date</h3>
+        </td>
+      </tr>
+      <tr>
+        <td><select class="location" name="location">
+          <option value="none">--select a location--</option>
+          <option value="original">Princess Cinema</option>
+          <option value="twin">Princess Twin</option>
+        </select></td>
+        <td><select class="film" name="film">
+          <option value="none">--select a movie--</option>
+          <option value="jojo">Jojo Rabbit</option>
+          <option value="downton">Downton Abbey</option>
+          <option value="harriet">Harriet</option>
+        </select></td>
+        <td><input type="date" id="start" name="trip-start"
+       value="2019-11-27"
+       min="2019-11-24" max="2019-12-01"></td>
+      </tr>
+    </table>
+    <input type="submit" name="submit" value="submit">
+    </div>
+
+    <div class="subtab">
+      <ul>
+        <li> <a href="../index.html">PLAYING TODAY</a> </li>
+        <li> <a href="coming.html">COMING SOON</a> </li>
+        <li> <a href="#">ALL MOVIES</a> </li>
+      </ul>
+    </div>
+
+    <div class="posters">
+
+      <div class="poster1">
+        <img src="../Images/poster1.jpg" alt="poster1">
+        <p>Location: Princess Twin <br>showtime: 2:15pm 4:30pm</p>
+      </div>
+
+      <div class="poster2">
+        <img src="../Images/poster2.jpg" alt="poster2">
+        <p>Location: Princess Twin <br>showtime: 2:30pm 6:30pm</p>
+      </div>
+
+      <div class="poster3">
+        <img src="../Images/poster3.jpg" alt="poster3">
+        <p>Location: Princess Twin <br>showtime: 7:00pm</p>
+      </div>
+
+      <div class="poster4">
+        <img src="../Images/poster4.jpg" alt="poster4">
+        <p>Location: Princess Original <br>showtime: 4:40pm</p>
+      </div>
+
+      <div class="poster5">
+        <img src="../Images/poster5.jpg" alt="poster5">
+        <p>Location: Princess Original <br>showtime: 6:45pm</p>
+      </div>
+
+      <div class="poster6">
+        <img src="../Images/poster6.jpg" alt="poster6">
+        <p>Location: Princess Original <br>showtime: 9:20pm</p>
+      </div>
+      <div class="poster7">
+        <img src="../Images/poster7.jpg" alt="poster7">
+        <p>Dec 21-26 <br>@Original Princess</p>
+      </div>
+
+      <div class="poster8">
+        <img src="../Images/poster11.jpg" alt="poster8">
+        <p>Nov 29-Dec 5 <br>@Original Princess</p>
+      </div>
+
+      <div class="poster9">
+        <img src="../Images/poster9.jpg" alt="poster9">
+        <p>Nov 29  <br>@Princess Twin</p>
+      </div>
+
+      <div class="poster10">
+        <img src="../Images/poster10.jpg" alt="poster10">
+        <p>Jan 2-9  <br>@Original Princess</p>
+      </div>
+
+      <div class="poster11">
+        <img src="../Images/poster8.jpg" alt="poster11">
+        <p>TBA<br></p>
+      </div>
+      </div>
+
+    <div class="endofposters-all">
+      <p></p>
+    </div>
+
+    <footer>
+      <div class="verticalLine">
+        <h3>Location</h3>
+        <h4>Princess Cinema</h4>
+        <p>6 Princess St W, Waterloo, ON N2L 2X8</p>
+        <br />
+        <h4>Princess Twin Cinema</h4>
+        <p>46 King St N, Waterloo, ON N2J 2W8</p>
+      </div>
+
+      <form class="subscribe" action="index.html" method="post">
+        <input type="text" id="email" value="JohnDoe@gmail.com....">
+        <input type="submit" id="apply" value="Subscribe">
+      </form>
+    </footer>
+
+
+<script src="../nav.js"></script>
+  </body>
+</html>
