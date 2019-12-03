@@ -946,7 +946,7 @@ div.address { /* this is so the contact info stays to the right*/
 
 /* ----------landing page start------------*/
   #landing_movie{
-    top: 1em;
+    top: -1em;
   }
   #ticket table{
     margin-left: -8em;
